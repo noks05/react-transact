@@ -1,0 +1,26 @@
+.articles {
+  display: flex;
+  margin-bottom: 98px;
+  gap: 12px;
+}
+
+.articles .article:nth-child(1) {
+  background-image:
+    url('../../assets/img/saturn-mini.svg'),
+    url('../../assets/img/circle-center.svg'),
+    url('../../assets/img/ellipse.svg');
+  background-repeat: no-repeat;
+  background-size: 95px, 263px, 27px;
+  background-position: bottom -6% left 16%, bottom right, bottom 60% right;
+}
+
+.articles .article:nth-child(2) {
+  background-image:
+    url('../../assets/img/ellipse3.svg'),
+    url('../../assets/img/rocket.svg'),
+    url('../../assets/img/asteroid3.svg'),
+    url('../../assets/img/asteroid2.svg');
+  background-repeat: no-repeat;
+  background-size: 25px, 226px, 181px, 0;
+  background-position: bottom 60% left -3%, bottom left, bottom 0% left 80%, 0;
+}

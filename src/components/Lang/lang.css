@@ -1,0 +1,31 @@
+.lang {
+  display: flex;
+  align-items: center;
+  border-radius: var(--bdrs-10);
+  padding: 8px 15px;
+  background-color: var(--blue-lighter);
+  transition: background-color 0.2s;
+}
+
+.lang:hover {
+  background-color: var(--violet);
+}
+
+.lang:active {
+  background-color: var(--violet-dark);
+}
+
+.lang>svg {
+  height: 18px;
+  width: 18px;
+  margin-right: 11px;
+}
+
+.lang>span {
+  font-family: 'Roboto Flex';
+  font-size: 0.9rem;
+  line-height: 1rem;
+  font-weight: 500;
+  color: var(--white);
+  text-transform: uppercase;
+}

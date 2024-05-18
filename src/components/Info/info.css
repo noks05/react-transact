@@ -1,0 +1,37 @@
+.info {
+  margin-bottom: 26px;
+}
+
+.info__title {
+  margin-bottom: 12px;
+  padding-left: 36px;
+  font-size: 1rem;
+  line-height: 1.6rem;
+  font-weight: 600;
+  color: var(--white);
+}
+
+.info__list {
+  display: flex;
+}
+
+.info__item {
+  width: calc((100% - 12px * 3) / 4);
+}
+
+.info__item:not(:last-child) {
+  margin-right: 12px;
+}
+
+.info__item:nth-child(1) {
+  right: -50px;
+}
+
+.info__item:nth-child(2) {
+  top: 39%;
+}
+
+.info__item:nth-child(4) {
+  right: 20px;
+  top: 45%;
+}

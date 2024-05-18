@@ -1,0 +1,14 @@
+.content{
+  background-image: url('../assets/img/phone.png');
+  background-repeat: no-repeat;
+  background-position: center top 250px;
+  background-size: 500px 529px;
+  padding-bottom: 118px;
+}
+
+.content .btn{
+  display: block;
+  font-size: 1.3rem;
+  line-height: 1.9rem;
+}
+

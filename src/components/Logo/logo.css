@@ -1,0 +1,19 @@
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo>div {
+  margin-right: 7px;
+  height: 24px;
+  width: 35px;
+}
+
+.logo>span {
+  font-family: 'Roboto Flex';
+  font-size: 1.25rem;
+  line-height: 1.45rem;
+  font-weight: 600;
+  color: var(--white);
+  text-transform: uppercase;
+}
